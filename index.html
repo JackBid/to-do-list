@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+  <!-- Give the page a title, import the font and link our stlye sheet in the head -->
+  <head>
+    <title>To-Do List</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+  </head>
+
+  <!-- The body contains all the elements on the page -->
+  <body>
+
+    <!-- This section is the list where items are added to -->
+    <div class="to-do-container">
+      <h2 class="to-do-title">To-Do</h2>
+      <ol>
+
+      </ol>
+      <div class="add-task-button"><span class="task-toggle-icon">+</span></div>
+    </div>
+
+    <!-- This section is the panel that shows information to the user about adding a task -->
+    <div class="add-task-container">
+      <label id="task-title-label">Enter your task:</label>
+      <input type="text" name="task-title-input" id="task-title-input" placeholder="Your task here" />
+      <button id="submit-task-button">Add Task</button>
+    </div>
+
+    <!-- Link all the scripts at the bottom of the document. Link the jquery library and then the app.js file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="resources/js/app.js"></script>
+
+  </body>
+
+</html>
